@@ -3,8 +3,10 @@ let SOMA = 0;
 let K = 1;
 
 while (K < INDICE) {
-  K = K + 1;
   SOMA = SOMA + K;
+  K = K + 1;
 }
 
-console.log(SOMA);
+console.log(SOMA); 
+
+//O valor da soma será 66.
